@@ -66,8 +66,8 @@
             </ListView.ItemTemplate>
         </ListView>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="2" >
-            <Button x:Name="ClientSerivceBtn" Click="ClientSerivceBtn_Click">Ближайшие записи</Button>
-            <Button x:Name="AddBtn" Click="AddBtn_Click">Добавить</Button>
+            <Button x:Name="ClientSerivceBtn" Click="ClientSerivceBtn_Click" >Ближайшие записи</Button>
+            <Button x:Name="AddBtn" Click="AddBtn_Click" >Добавить</Button>
             <TextBlock x:Name="FilterCount"></TextBlock>
             <TextBlock x:Name="GeneralCount"></TextBlock>
         </StackPanel>

@@ -17,7 +17,8 @@
                   Grid.Row="1"
                   Width="{Binding ElementName=SCPage, Mode=OneWay}"
                   d:ItemsSource="{d:SampleData ItemCount=5}"
-                  ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+                  ScrollViewer.HorizontalScrollBarVisibility="Hidden" >
+            
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Border x:Name="border"
@@ -25,8 +26,8 @@
                             Padding="2"
                             Height="130"
                             BorderBrush="Black"
-                            Width="{Binding Path=ActualWidth, ElementName=LVService, Converter={StaticResource widthConvert}, ConverterParameter=40}"
-                            BorderThickness="1">
+                            BorderThickness="1"
+                            Width="760">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="280"/>
